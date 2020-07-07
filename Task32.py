@@ -12,3 +12,4 @@ else:
     print (mult)
     num5 = str(num)
     print (num5[-1:-5:-1])
+    print (sorted(num5))
