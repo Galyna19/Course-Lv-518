@@ -4,7 +4,7 @@ from tkinter.filedialog import asksaveasfile
 root=Tk()
 
 def check():
-    a = r(f'Name:{name1.get()} /n Surname:{name2.get()} Question:{name3.get()} Answer:{name4.get()}')
+    a = (f'Name:{name1.get()} Surname:{name2.get()} Question:{name3.get()} Answer:{name4.get()}')
     file = asksaveasfile(defaultextension=".txt")
     file.write(a)
 
